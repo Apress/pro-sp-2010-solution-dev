@@ -1,0 +1,5 @@
+D:\Projects\CustomerDocumentsFeature\CustomerDocumentsFeature\bin\Debug\CustomerDocumentsFeature.dll
+D:\Projects\CustomerDocumentsFeature\CustomerDocumentsFeature\bin\Debug\CustomerDocumentsFeature.pdb
+D:\Projects\CustomerDocumentsFeature\CustomerDocumentsFeature\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\CustomerDocumentsFeature\CustomerDocumentsFeature\obj\Debug\CustomerDocumentsFeature.dll
+D:\Projects\CustomerDocumentsFeature\CustomerDocumentsFeature\obj\Debug\CustomerDocumentsFeature.pdb

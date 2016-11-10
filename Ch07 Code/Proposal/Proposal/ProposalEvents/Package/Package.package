@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" Id="5f547c28-0064-4173-8ea9-19faca9a2a1e" solutionId="5f547c28-0064-4173-8ea9-19faca9a2a1e" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" name="ProposalEvents">
+    <features>
+        <featureReference itemId="f0d37d8d-f82b-4369-808d-46fcfe801c94" />
+    </features>
+</package>

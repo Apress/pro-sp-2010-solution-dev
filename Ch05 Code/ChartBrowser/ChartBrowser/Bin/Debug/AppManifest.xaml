@@ -1,0 +1,9 @@
+﻿<Deployment xmlns="http://schemas.microsoft.com/client/2007/deployment" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" EntryPointAssembly="ChartBrowser" EntryPointType="ChartBrowser.App" RuntimeVersion="3.0.40818.0">
+  <Deployment.Parts>
+    <AssemblyPart x:Name="ChartBrowser" Source="ChartBrowser.dll" />
+    <AssemblyPart x:Name="Microsoft.SharePoint.Client.Silverlight" Source="Microsoft.SharePoint.Client.Silverlight.dll" />
+    <AssemblyPart x:Name="Microsoft.SharePoint.Client.Silverlight.Runtime" Source="Microsoft.SharePoint.Client.Silverlight.Runtime.dll" />
+    <AssemblyPart x:Name="System.ServiceModel.Syndication" Source="System.ServiceModel.Syndication.dll" />
+    <AssemblyPart x:Name="System.Xml.Serialization" Source="System.Xml.Serialization.dll" />
+  </Deployment.Parts>
+</Deployment>

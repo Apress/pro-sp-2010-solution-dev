@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Receivers ListTemplateId="10000">
+      <Receiver>
+        <Name>GeocodeReceiverItemAdding</Name>
+        <Type>ItemAdding</Type>
+        <Assembly>GeocodeFeature, Version=1.0.0.0, Culture=neutral, PublicKeyToken=907b741bcf63d4fc</Assembly>
+        <Class>GeocodeFeature.GeocodeReceiver.GeocodeReceiver</Class>
+        <SequenceNumber>10000</SequenceNumber>
+      </Receiver>
+      <Receiver>
+        <Name>GeocodeReceiverItemUpdating</Name>
+        <Type>ItemUpdating</Type>
+        <Assembly>GeocodeFeature, Version=1.0.0.0, Culture=neutral, PublicKeyToken=907b741bcf63d4fc</Assembly>
+        <Class>GeocodeFeature.GeocodeReceiver.GeocodeReceiver</Class>
+        <SequenceNumber>10000</SequenceNumber>
+      </Receiver>
+
+  </Receivers>
+</Elements>

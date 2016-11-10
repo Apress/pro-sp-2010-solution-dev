@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="5f547c28-0064-4173-8ea9-19faca9a2a1e" SharePointProductVersion="14.0">
+  <Assemblies>
+    <Assembly Location="ProposalEvents.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="ProposalEvents_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>

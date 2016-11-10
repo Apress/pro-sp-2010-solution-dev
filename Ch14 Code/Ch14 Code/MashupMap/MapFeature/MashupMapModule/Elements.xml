@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="MashupMapModule">
+  <File Path="MashupMapModule\nationalparks.xml" Url="Shared Documents/nationalparks.xml" />
+<File Path="MashupMapModule\MashupMap.xap" Url="Shared Documents/MashupMap.xap" />
+</Module>
+</Elements>

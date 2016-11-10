@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="0be82c19-6d8a-419f-ae07-f8519ee6e53e" SharePointProductVersion="14.0">
+  <Assemblies>
+    <Assembly Location="DynamicPowerPoint.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="DynamicPowerPoint, Version=1.0.0.0, Culture=neutral, PublicKeyToken=897c20acbe3280da" Namespace="DynamicPowerPoint.DynPPTWP" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="CONTROLTEMPLATES\DynamicPowerPoint\DynPPTWP\DynPPTWPUserControl.ascx" />
+    <TemplateFile Location="Images\DynamicPowerPoint\status_anim.gif" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="DynamicPowerPoint_Main\Feature.xml" />
+  </FeatureManifests>
+</Solution>

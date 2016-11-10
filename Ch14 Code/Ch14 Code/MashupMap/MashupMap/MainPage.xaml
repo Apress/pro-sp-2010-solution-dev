@@ -1,0 +1,50 @@
+﻿<UserControl xmlns:my="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Data.Input"  x:Class="MashupMap.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:m="clr-namespace:Microsoft.Maps.MapControl;assembly=Microsoft.Maps.MapControl"
+    xmlns:db="clr-namespace:MashupMap"
+    mc:Ignorable="d"
+    d:DesignHeight="400" d:DesignWidth="600" Loaded="UserControl_Loaded">
+    <UserControl.Resources>
+        <DataTemplate x:Key="ElementTemplate">
+            <Image Width="29" Height="34" Source="nationalparksml.png" m:MapLayer.Position="{Binding Location}" Tag="{Binding Name}" MouseEnter="Park_MouseEnter" MouseLeave="Park_MouseLeave" />
+        </DataTemplate>
+        <db:KMLElementCollection x:Key="KMLElements" Source="nationalparks.xml" /> 
+    </UserControl.Resources>
+
+
+    <Grid x:Name="LayoutRoot" Background="White" Width="600" Height="400">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="458*" />
+            <ColumnDefinition Width="142*" />
+        </Grid.ColumnDefinitions>
+        <m:Map x:Name="mapControl" Grid.Column="0" CredentialsProvider="YOURKEY" Mode="AerialWithLabels" Center="39.3683,-95.2734,4.0" ZoomLevel="3" >
+            <m:MapLayer x:Name="ParkLayer" Visibility="Collapsed">
+                <m:MapItemsControl x:Name="Parks"
+                ItemTemplate="{StaticResource ElementTemplate}" 
+                ItemsSource="{StaticResource KMLElements}">
+                </m:MapItemsControl>
+            </m:MapLayer>
+            <m:MapLayer x:Name="AlertLayer" Visibility="Collapsed">
+            </m:MapLayer>
+            <m:MapLayer x:Name="PinLayer" Visibility="Collapsed" >
+            </m:MapLayer>
+            <m:MapLayer x:Name="InfoLayer" >
+                <Border x:Name="infoBox" Background="White" Height="40" Width="150" Visibility="Collapsed" CornerRadius="10"  >
+                    <TextBlock x:Name="pinInfo" FontSize="10" Foreground="Black" FontWeight="Normal"  HorizontalAlignment="Left" Margin="5,5,0,0"  TextWrapping="Wrap"  />
+                </Border>
+            </m:MapLayer>
+
+        </m:Map>
+        <StackPanel Grid.Column="1" Height="400" HorizontalAlignment="Left" Name="stackPanel1" VerticalAlignment="Top" Width="142" Background="Beige" >
+            <my:Label Content="Tools" FontSize="16" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,10,0,10" />
+            <CheckBox x:Name="ShowParks" Content="Show National Parks" Margin="5,5,0,5" Checked="ShowParks_Checked" Unchecked="ShowParks_Unchecked" />
+            <CheckBox x:Name="ShowContacts" Content="Show Campgrounds" Margin="5,5,0,5" Checked="ShowContacts_Checked" Unchecked="ShowContacts_Unchecked" />
+            <CheckBox x:Name="ShowWildlifeAlerts" Content="Show Wildlife Alerts" Margin="5,5,0,5" Checked="ShowWildlifeAlerts_Checked" Unchecked="ShowWildlifeAlerts_Unchecked" />
+            <Button x:Name="loadFeed" Content="Load Alerts" Width="100" Margin="5,5,0,5" Click="loadFeed_Click" />
+
+        </StackPanel>
+    </Grid>
+</UserControl>

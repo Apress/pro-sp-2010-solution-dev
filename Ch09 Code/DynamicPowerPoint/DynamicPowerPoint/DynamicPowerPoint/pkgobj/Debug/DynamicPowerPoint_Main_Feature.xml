@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="DynamicPowerPoint WebPart Feature" Description="Enables a web part that builds a presentation from site content" Id="94eeb3e2-c282-4a96-8dd3-4cdf518341c7" Scope="Site">
+  <ElementManifests>
+    <ElementManifest Location="DynPPTWP\Elements.xml" />
+    <ElementFile Location="DynPPTWP\DynPPTWP.webpart" />
+  </ElementManifests>
+</Feature>

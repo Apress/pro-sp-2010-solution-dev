@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="9974c09e-2df9-4e56-b747-198cef793904" solutionId="9974c09e-2df9-4e56-b747-198cef793904" resetWebServer="false" name="FloorPlan" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="05d8a151-a995-4287-9f8a-1610c2060cb2" />
+  </features>
+</package>

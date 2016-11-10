@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="4a534176-343b-4b0b-9710-680e9c18488e" Scope="Web" Title="GeocodeFeature Feature1">
+  <ElementManifests>
+    <ElementManifest Location="GeocodeContact\Elements.xml" />
+    <ElementManifest Location="GeocodedContacts\Elements.xml" />
+    <ElementFile Location="GeocodedContacts\Schema.xml" />
+    <ElementManifest Location="GeocodeReceiver\Elements.xml" />
+  </ElementManifests>
+</Feature>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <CustomAction
+    Id="Ribbon.Library.Actions.AddAButton"
+    Location="CommandUI.Ribbon"
+    RegistrationType="List"
+    RegistrationId="101">
+    <CommandUIExtension>
+      <CommandUIDefinitions>
+        <CommandUIDefinition
+          Location="Ribbon.Library.Share.Controls._children">
+          <Button Id="Ribbon.Library.Share.HelloWorldButton"
+            Command="HelloWorldButtonCommand"
+            Image32by32="/_layouts/images/ppeople.gif"
+            LabelText="Hello World"
+            TemplateAlias="o2" />
+        </CommandUIDefinition>
+      </CommandUIDefinitions>
+      <CommandUIHandlers>
+        <CommandUIHandler
+          Command="HelloWorldButtonCommand"
+          CommandAction="javascript:alert('Say Hello to the World!');" />
+      </CommandUIHandlers>
+    </CommandUIExtension>
+  </CustomAction>
+</Elements>

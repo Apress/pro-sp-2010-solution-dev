@@ -1,0 +1,102 @@
+C:\Projects\ChartBrowser2\ChartBrowser\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\ChartBrowser2\ChartBrowser\obj\Debug\App.g.cs
+C:\Projects\ChartBrowser2\ChartBrowser\obj\Debug\MainPage.g.cs
+C:\Projects\ChartBrowser2\ChartBrowser\obj\Debug\ChartBrowser.g.resources
+C:\Projects\ChartBrowser2\ChartBrowser\Bin\Debug\ChartBrowser.dll
+C:\Projects\ChartBrowser2\ChartBrowser\Bin\Debug\ChartBrowser.pdb
+C:\Projects\ChartBrowser2\ChartBrowser\Bin\Debug\AppManifest.xaml
+C:\Projects\ChartBrowser2\ChartBrowser\Bin\Debug\ChartBrowser.xap
+C:\Projects\ChartBrowser2\ChartBrowser\Bin\Debug\TestPage.html
+C:\Projects\ChartBrowser2\ChartBrowser\Bin\Debug\Microsoft.SharePoint.Client.Silverlight.dll
+C:\Projects\ChartBrowser2\ChartBrowser\Bin\Debug\Microsoft.SharePoint.Client.Silverlight.Runtime.dll
+C:\Projects\ChartBrowser2\ChartBrowser\Bin\Debug\System.ServiceModel.Syndication.dll
+C:\Projects\ChartBrowser2\ChartBrowser\Bin\Debug\System.Xml.Serialization.dll
+C:\Projects\ChartBrowser2\ChartBrowser\Bin\Debug\System.ServiceModel.Syndication.xml
+C:\Projects\ChartBrowser2\ChartBrowser\Bin\Debug\System.Xml.Serialization.xml
+C:\Projects\ChartBrowser2\ChartBrowser\Bin\Debug\en-us\Microsoft.SharePoint.Client.Silverlight.Runtime.resources.dll
+C:\Projects\ChartBrowser2\ChartBrowser\Bin\Debug\de\System.ServiceModel.Syndication.resources.dll
+C:\Projects\ChartBrowser2\ChartBrowser\Bin\Debug\es\System.ServiceModel.Syndication.resources.dll
+C:\Projects\ChartBrowser2\ChartBrowser\Bin\Debug\fr\System.ServiceModel.Syndication.resources.dll
+C:\Projects\ChartBrowser2\ChartBrowser\Bin\Debug\it\System.ServiceModel.Syndication.resources.dll
+C:\Projects\ChartBrowser2\ChartBrowser\Bin\Debug\ja\System.ServiceModel.Syndication.resources.dll
+C:\Projects\ChartBrowser2\ChartBrowser\Bin\Debug\ko\System.ServiceModel.Syndication.resources.dll
+C:\Projects\ChartBrowser2\ChartBrowser\Bin\Debug\zh-Hans\System.ServiceModel.Syndication.resources.dll
+C:\Projects\ChartBrowser2\ChartBrowser\Bin\Debug\zh-Hant\System.ServiceModel.Syndication.resources.dll
+C:\Projects\ChartBrowser2\ChartBrowser\Bin\Debug\de\System.Xml.Serialization.resources.dll
+C:\Projects\ChartBrowser2\ChartBrowser\Bin\Debug\es\System.Xml.Serialization.resources.dll
+C:\Projects\ChartBrowser2\ChartBrowser\Bin\Debug\fr\System.Xml.Serialization.resources.dll
+C:\Projects\ChartBrowser2\ChartBrowser\Bin\Debug\it\System.Xml.Serialization.resources.dll
+C:\Projects\ChartBrowser2\ChartBrowser\Bin\Debug\ja\System.Xml.Serialization.resources.dll
+C:\Projects\ChartBrowser2\ChartBrowser\Bin\Debug\ko\System.Xml.Serialization.resources.dll
+C:\Projects\ChartBrowser2\ChartBrowser\Bin\Debug\zh-Hans\System.Xml.Serialization.resources.dll
+C:\Projects\ChartBrowser2\ChartBrowser\Bin\Debug\zh-Hant\System.Xml.Serialization.resources.dll
+C:\Projects\ChartBrowser2\ChartBrowser\obj\Debug\ChartBrowser.dll
+C:\Projects\ChartBrowser2\ChartBrowser\obj\Debug\ChartBrowser.pdb
+C:\Projects\ChartBrowser2\ChartBrowser\obj\Debug\XapCacheFile.xml
+C:\Projects\ChartBrowser\ChartBrowser\Bin\Debug\ChartBrowser.dll
+C:\Projects\ChartBrowser\ChartBrowser\Bin\Debug\ChartBrowser.pdb
+C:\Projects\ChartBrowser\ChartBrowser\Bin\Debug\AppManifest.xaml
+C:\Projects\ChartBrowser\ChartBrowser\Bin\Debug\ChartBrowser.xap
+C:\Projects\ChartBrowser\ChartBrowser\Bin\Debug\TestPage.html
+C:\Projects\ChartBrowser\ChartBrowser\Bin\Debug\Microsoft.SharePoint.Client.Silverlight.dll
+C:\Projects\ChartBrowser\ChartBrowser\Bin\Debug\Microsoft.SharePoint.Client.Silverlight.Runtime.dll
+C:\Projects\ChartBrowser\ChartBrowser\Bin\Debug\System.ServiceModel.Syndication.dll
+C:\Projects\ChartBrowser\ChartBrowser\Bin\Debug\System.Xml.Serialization.dll
+C:\Projects\ChartBrowser\ChartBrowser\Bin\Debug\System.ServiceModel.Syndication.xml
+C:\Projects\ChartBrowser\ChartBrowser\Bin\Debug\System.Xml.Serialization.xml
+C:\Projects\ChartBrowser\ChartBrowser\Bin\Debug\en-us\Microsoft.SharePoint.Client.Silverlight.Runtime.resources.dll
+C:\Projects\ChartBrowser\ChartBrowser\Bin\Debug\de\System.ServiceModel.Syndication.resources.dll
+C:\Projects\ChartBrowser\ChartBrowser\Bin\Debug\es\System.ServiceModel.Syndication.resources.dll
+C:\Projects\ChartBrowser\ChartBrowser\Bin\Debug\fr\System.ServiceModel.Syndication.resources.dll
+C:\Projects\ChartBrowser\ChartBrowser\Bin\Debug\it\System.ServiceModel.Syndication.resources.dll
+C:\Projects\ChartBrowser\ChartBrowser\Bin\Debug\ja\System.ServiceModel.Syndication.resources.dll
+C:\Projects\ChartBrowser\ChartBrowser\Bin\Debug\ko\System.ServiceModel.Syndication.resources.dll
+C:\Projects\ChartBrowser\ChartBrowser\Bin\Debug\zh-Hans\System.ServiceModel.Syndication.resources.dll
+C:\Projects\ChartBrowser\ChartBrowser\Bin\Debug\zh-Hant\System.ServiceModel.Syndication.resources.dll
+C:\Projects\ChartBrowser\ChartBrowser\Bin\Debug\de\System.Xml.Serialization.resources.dll
+C:\Projects\ChartBrowser\ChartBrowser\Bin\Debug\es\System.Xml.Serialization.resources.dll
+C:\Projects\ChartBrowser\ChartBrowser\Bin\Debug\fr\System.Xml.Serialization.resources.dll
+C:\Projects\ChartBrowser\ChartBrowser\Bin\Debug\it\System.Xml.Serialization.resources.dll
+C:\Projects\ChartBrowser\ChartBrowser\Bin\Debug\ja\System.Xml.Serialization.resources.dll
+C:\Projects\ChartBrowser\ChartBrowser\Bin\Debug\ko\System.Xml.Serialization.resources.dll
+C:\Projects\ChartBrowser\ChartBrowser\Bin\Debug\zh-Hans\System.Xml.Serialization.resources.dll
+C:\Projects\ChartBrowser\ChartBrowser\Bin\Debug\zh-Hant\System.Xml.Serialization.resources.dll
+C:\Projects\ChartBrowser\ChartBrowser\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\ChartBrowser\ChartBrowser\obj\Debug\App.g.cs
+C:\Projects\ChartBrowser\ChartBrowser\obj\Debug\MainPage.g.cs
+C:\Projects\ChartBrowser\ChartBrowser\obj\Debug\ChartBrowser.g.resources
+C:\Projects\ChartBrowser\ChartBrowser\obj\Debug\ChartBrowser.dll
+C:\Projects\ChartBrowser\ChartBrowser\obj\Debug\ChartBrowser.pdb
+C:\Projects\ChartBrowser\ChartBrowser\obj\Debug\XapCacheFile.xml
+C:\Users\chadwach\Projects\Book\Ch. 5\ChartBrowser\ChartBrowser\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\chadwach\Projects\Book\Ch. 5\ChartBrowser\ChartBrowser\obj\Debug\App.g.cs
+C:\Users\chadwach\Projects\Book\Ch. 5\ChartBrowser\ChartBrowser\obj\Debug\MainPage.g.cs
+C:\Users\chadwach\Projects\Book\Ch. 5\ChartBrowser\ChartBrowser\obj\Debug\ChartBrowser.g.resources
+C:\Users\chadwach\Projects\Book\Ch. 5\ChartBrowser\ChartBrowser\Bin\Debug\ChartBrowser.dll
+C:\Users\chadwach\Projects\Book\Ch. 5\ChartBrowser\ChartBrowser\Bin\Debug\ChartBrowser.pdb
+C:\Users\chadwach\Projects\Book\Ch. 5\ChartBrowser\ChartBrowser\Bin\Debug\AppManifest.xaml
+C:\Users\chadwach\Projects\Book\Ch. 5\ChartBrowser\ChartBrowser\Bin\Debug\ChartBrowser.xap
+C:\Users\chadwach\Projects\Book\Ch. 5\ChartBrowser\ChartBrowser\Bin\Debug\TestPage.html
+C:\Users\chadwach\Projects\Book\Ch. 5\ChartBrowser\ChartBrowser\Bin\Debug\System.ServiceModel.Syndication.dll
+C:\Users\chadwach\Projects\Book\Ch. 5\ChartBrowser\ChartBrowser\Bin\Debug\System.Xml.Serialization.dll
+C:\Users\chadwach\Projects\Book\Ch. 5\ChartBrowser\ChartBrowser\Bin\Debug\System.ServiceModel.Syndication.xml
+C:\Users\chadwach\Projects\Book\Ch. 5\ChartBrowser\ChartBrowser\Bin\Debug\System.Xml.Serialization.xml
+C:\Users\chadwach\Projects\Book\Ch. 5\ChartBrowser\ChartBrowser\Bin\Debug\de\System.ServiceModel.Syndication.resources.dll
+C:\Users\chadwach\Projects\Book\Ch. 5\ChartBrowser\ChartBrowser\Bin\Debug\es\System.ServiceModel.Syndication.resources.dll
+C:\Users\chadwach\Projects\Book\Ch. 5\ChartBrowser\ChartBrowser\Bin\Debug\fr\System.ServiceModel.Syndication.resources.dll
+C:\Users\chadwach\Projects\Book\Ch. 5\ChartBrowser\ChartBrowser\Bin\Debug\it\System.ServiceModel.Syndication.resources.dll
+C:\Users\chadwach\Projects\Book\Ch. 5\ChartBrowser\ChartBrowser\Bin\Debug\ja\System.ServiceModel.Syndication.resources.dll
+C:\Users\chadwach\Projects\Book\Ch. 5\ChartBrowser\ChartBrowser\Bin\Debug\ko\System.ServiceModel.Syndication.resources.dll
+C:\Users\chadwach\Projects\Book\Ch. 5\ChartBrowser\ChartBrowser\Bin\Debug\zh-Hans\System.ServiceModel.Syndication.resources.dll
+C:\Users\chadwach\Projects\Book\Ch. 5\ChartBrowser\ChartBrowser\Bin\Debug\zh-Hant\System.ServiceModel.Syndication.resources.dll
+C:\Users\chadwach\Projects\Book\Ch. 5\ChartBrowser\ChartBrowser\Bin\Debug\de\System.Xml.Serialization.resources.dll
+C:\Users\chadwach\Projects\Book\Ch. 5\ChartBrowser\ChartBrowser\Bin\Debug\es\System.Xml.Serialization.resources.dll
+C:\Users\chadwach\Projects\Book\Ch. 5\ChartBrowser\ChartBrowser\Bin\Debug\fr\System.Xml.Serialization.resources.dll
+C:\Users\chadwach\Projects\Book\Ch. 5\ChartBrowser\ChartBrowser\Bin\Debug\it\System.Xml.Serialization.resources.dll
+C:\Users\chadwach\Projects\Book\Ch. 5\ChartBrowser\ChartBrowser\Bin\Debug\ja\System.Xml.Serialization.resources.dll
+C:\Users\chadwach\Projects\Book\Ch. 5\ChartBrowser\ChartBrowser\Bin\Debug\ko\System.Xml.Serialization.resources.dll
+C:\Users\chadwach\Projects\Book\Ch. 5\ChartBrowser\ChartBrowser\Bin\Debug\zh-Hans\System.Xml.Serialization.resources.dll
+C:\Users\chadwach\Projects\Book\Ch. 5\ChartBrowser\ChartBrowser\Bin\Debug\zh-Hant\System.Xml.Serialization.resources.dll
+C:\Users\chadwach\Projects\Book\Ch. 5\ChartBrowser\ChartBrowser\obj\Debug\ChartBrowser.dll
+C:\Users\chadwach\Projects\Book\Ch. 5\ChartBrowser\ChartBrowser\obj\Debug\ChartBrowser.pdb
+C:\Users\chadwach\Projects\Book\Ch. 5\ChartBrowser\ChartBrowser\obj\Debug\XapCacheFile.xml

@@ -1,0 +1,14 @@
+﻿<Deployment xmlns="http://schemas.microsoft.com/client/2007/deployment" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" EntryPointAssembly="MashupMap" EntryPointType="MashupMap.App" RuntimeVersion="3.0.40818.0">
+  <Deployment.Parts>
+    <AssemblyPart x:Name="MashupMap" Source="MashupMap.dll" />
+    <AssemblyPart x:Name="Microsoft.Maps.MapControl.Common" Source="Microsoft.Maps.MapControl.Common.dll" />
+    <AssemblyPart x:Name="Microsoft.Maps.MapControl" Source="Microsoft.Maps.MapControl.dll" />
+    <AssemblyPart x:Name="Microsoft.SharePoint.Client.Silverlight" Source="Microsoft.SharePoint.Client.Silverlight.dll" />
+    <AssemblyPart x:Name="Microsoft.SharePoint.Client.Silverlight.Runtime" Source="Microsoft.SharePoint.Client.Silverlight.Runtime.dll" />
+    <AssemblyPart x:Name="System.ServiceModel.Syndication" Source="System.ServiceModel.Syndication.dll" />
+    <AssemblyPart x:Name="System.Windows.Controls.Data.Input" Source="System.Windows.Controls.Data.Input.dll" />
+    <AssemblyPart x:Name="System.Xml.Linq" Source="System.Xml.Linq.dll" />
+    <AssemblyPart x:Name="System.Xml.Serialization" Source="System.Xml.Serialization.dll" />
+    <AssemblyPart x:Name="System.ComponentModel.DataAnnotations" Source="System.ComponentModel.DataAnnotations.dll" />
+  </Deployment.Parts>
+</Deployment>

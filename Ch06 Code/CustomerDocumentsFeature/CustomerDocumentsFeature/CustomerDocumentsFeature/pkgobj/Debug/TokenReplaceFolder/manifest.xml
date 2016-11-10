@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="36897935-22a7-4c02-ab3c-746ecb00db2e" SharePointProductVersion="14.0">
+  <Assemblies>
+    <Assembly Location="CustomerDocumentsFeature.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="Layouts\CustomerDocumentsFeature\BuildCustomerDoc.aspx" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="CustomerDocumentsFeature_CustomerDocumentsFeature\Feature.xml" />
+  </FeatureManifests>
+</Solution>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="237be74a-f239-4a27-ba50-c8de0a5d0079" solutionId="237be74a-f239-4a27-ba50-c8de0a5d0079" resetWebServer="false" name="MapFeature" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="7751fe8d-f0ce-43c7-89ae-1a42987d8a70" />
+  </features>
+</package>

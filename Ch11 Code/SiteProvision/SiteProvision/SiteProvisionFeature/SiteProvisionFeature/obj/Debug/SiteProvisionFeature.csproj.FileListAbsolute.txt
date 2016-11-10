@@ -1,0 +1,5 @@
+D:\Projects\SiteProvision\SiteProvisionFeature\SiteProvisionFeature\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\SiteProvision\SiteProvisionFeature\SiteProvisionFeature\bin\Debug\SiteProvisionFeature.dll
+D:\Projects\SiteProvision\SiteProvisionFeature\SiteProvisionFeature\bin\Debug\SiteProvisionFeature.pdb
+D:\Projects\SiteProvision\SiteProvisionFeature\SiteProvisionFeature\obj\Debug\SiteProvisionFeature.dll
+D:\Projects\SiteProvision\SiteProvisionFeature\SiteProvisionFeature\obj\Debug\SiteProvisionFeature.pdb

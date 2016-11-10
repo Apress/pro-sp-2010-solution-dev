@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="Hello World Feature" Description="My first feature using the new SharePoint tools in Visual Studio" Id="028bf3c7-f51b-4091-95c7-d003f1724735" ReceiverAssembly="HelloWorld, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b057637f3d718780" ReceiverClass="HelloWorld.Features.HelloWorldFeature.HelloWorldFeatureEventReceiver" Scope="Web">
+  <ElementManifests>
+    <ElementManifest Location="RibbonElement\Elements.xml" />
+  </ElementManifests>
+</Feature>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="DynamicPowerPoint.DynPPTWP.DynPPTWP, DynamicPowerPoint, Version=1.0.0.0, Culture=neutral, PublicKeyToken=897c20acbe3280da" />
+      <importErrorMessage>$Resources:core,ImportErrorMessage;</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">Dynamic PowerPoint Web Part</property>
+        <property name="Description" type="string">
+          Automates the creation of a presentation from site content
+        </property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>

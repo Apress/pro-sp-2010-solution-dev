@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <CustomAction Id="Ribbon.ListItem.Actions.BuildCustomerDocuments"
+                Location="CommandUI.Ribbon"
+                RegistrationId="105"
+                RegistrationType="List"
+                Title="Build Customer Document">
+    <CommandUIExtension>
+      <CommandUIDefinitions>
+        <CommandUIDefinition
+           Location="Ribbon.ListItem.Actions.Controls._children">
+          <Button Id="Ribbon.ListItem.Actions.BuildCustomerDocumentsButton"
+                  Image16by16="/_layouts/images/DOC16.gif"
+                  Image32by32="/_layouts/images/DOC32.gif"
+                  LabelText="Build Customer Doc"
+                  Sequence="100"
+                  TemplateAlias="o1"
+                  Command="HelloCommand" />
+        </CommandUIDefinition>
+      </CommandUIDefinitions>
+      <CommandUIHandlers>
+        <CommandUIHandler
+           Command="HelloCommand"
+           CommandAction="javascript:GoToPage('{SiteUrl}/_layouts/CustomerDocumentsFeature/BuildCustomerDoc.aspx?List={ListId}&amp;ID={SelectedItemId}');"/>
+      </CommandUIHandlers>
+    </CommandUIExtension>
+  </CustomAction>
+</Elements>

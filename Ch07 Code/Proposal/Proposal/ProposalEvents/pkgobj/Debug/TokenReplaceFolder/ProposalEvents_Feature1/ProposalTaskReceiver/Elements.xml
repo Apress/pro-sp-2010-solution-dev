@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Receivers ListTemplateId="107">
+      <Receiver>
+        <Name>ProposalTaskReceiverItemUpdated</Name>
+        <Type>ItemUpdated</Type>
+        <Assembly>ProposalEvents, Version=1.0.0.0, Culture=neutral, PublicKeyToken=d1aa33f3c5a83714</Assembly>
+        <Class>ProposalEvents.ProposalTaskReceiver.ProposalTaskReceiver</Class>
+        <SequenceNumber>10000</SequenceNumber>
+      </Receiver>
+
+  </Receivers>
+</Elements>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="0be82c19-6d8a-419f-ae07-f8519ee6e53e" solutionId="0be82c19-6d8a-419f-ae07-f8519ee6e53e" resetWebServer="false" name="DynamicPowerPoint" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="3be29279-0b90-47a1-a1b4-5c41e0458fd1" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="180e12ca-30c6-4608-b6dc-e6090a7b74ca" />
+  </projectItems>
+</package>

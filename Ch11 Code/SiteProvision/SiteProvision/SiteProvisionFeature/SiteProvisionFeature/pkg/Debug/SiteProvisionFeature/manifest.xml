@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="7b252acb-979b-4a4e-9c99-201499a042f1" SharePointProductVersion="14.0">
+  <Assemblies>
+    <Assembly Location="SiteProvisionActivity.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="SiteProvisionActivity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=d5c639ac57ef5dbf" Namespace="SiteProvisionActivity" TypeName="*" SafeAgainstScript="True" />
+      </SafeControls>
+    </Assembly>
+    <Assembly Location="SiteProvisionFeature.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="1033\Workflow\ProvisionActivity.ACTIONS" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="SiteProvisionFeature_SiteProvisionFeature\Feature.xml" />
+  </FeatureManifests>
+</Solution>

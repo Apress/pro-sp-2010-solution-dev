@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="e85b50c3-78db-469c-9f4d-ec0eb09b0b07" Scope="Web" Title="MapFeature Feature1">
+  <ElementManifests>
+    <ElementManifest Location="MashupMapModule\Elements.xml" />
+    <ElementFile Location="MashupMapModule\nationalparks.xml" />
+    <ElementFile Location="MashupMapModule\MashupMap.xap" />
+  </ElementManifests>
+</Feature>

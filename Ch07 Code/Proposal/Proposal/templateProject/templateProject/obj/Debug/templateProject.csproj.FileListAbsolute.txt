@@ -1,0 +1,17 @@
+D:\Projects\Proposal\templateProject\templateProject\bin\Debug\templateProject.dll.config
+D:\Projects\Proposal\templateProject\templateProject\bin\Debug\templateProject.dll
+D:\Projects\Proposal\templateProject\templateProject\bin\Debug\templateProject.pdb
+D:\Projects\Proposal\templateProject\templateProject\bin\Debug\templateProject.dll.manifest
+D:\Projects\Proposal\templateProject\templateProject\bin\Debug\templateProject.vsto
+D:\Projects\Proposal\templateProject\templateProject\bin\Debug\template.dotx
+D:\Projects\Proposal\templateProject\templateProject\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+D:\Projects\Proposal\templateProject\templateProject\bin\Debug\Microsoft.Office.Tools.Word.v4.0.Utilities.dll
+D:\Projects\Proposal\templateProject\templateProject\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.xml
+D:\Projects\Proposal\templateProject\templateProject\bin\Debug\Microsoft.Office.Tools.Word.v4.0.Utilities.xml
+D:\Projects\Proposal\templateProject\templateProject\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\Proposal\templateProject\templateProject\obj\Debug\templateProject.ProposalPane.resources
+D:\Projects\Proposal\templateProject\templateProject\obj\Debug\templateProject.Properties.Resources.resources
+D:\Projects\Proposal\templateProject\templateProject\obj\Debug\GenerateResource.read.1.tlog
+D:\Projects\Proposal\templateProject\templateProject\obj\Debug\GenerateResource.write.1.tlog
+D:\Projects\Proposal\templateProject\templateProject\obj\Debug\templateProject.dll
+D:\Projects\Proposal\templateProject\templateProject\obj\Debug\templateProject.pdb

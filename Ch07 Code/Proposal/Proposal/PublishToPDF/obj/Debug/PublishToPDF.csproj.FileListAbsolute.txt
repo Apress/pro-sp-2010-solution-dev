@@ -1,0 +1,6 @@
+D:\Projects\Proposal\PublishToPDF\bin\Debug\PublishToPDF.dll
+D:\Projects\Proposal\PublishToPDF\bin\Debug\PublishToPDF.pdb
+D:\Projects\Proposal\PublishToPDF\bin\Debug\Microsoft.Office.Word.Server.Sandbox.dll
+D:\Projects\Proposal\PublishToPDF\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\Proposal\PublishToPDF\obj\Debug\PublishToPDF.dll
+D:\Projects\Proposal\PublishToPDF\obj\Debug\PublishToPDF.pdb

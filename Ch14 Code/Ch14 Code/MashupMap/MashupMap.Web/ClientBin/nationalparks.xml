@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kml xmlns="http://earth.google.com/kml/2.0">
+
+	<Document>
+	
+		<name>Discovery Networks</name>
+		<visibility>0</visibility>
+		<description><![CDATA[Zoom into real life]]></description>
+		<Style id="discoveryPOIMapMouseover">
+			<scale>1.4</scale>
+			<IconStyle>
+				<Icon>
+					<href>http://www.discovery.com/common/sgallery/googleearth/globe_white.png</href>
+					<w>32</w>
+					<h>32</h>
+				</Icon>
+			</IconStyle>
+			<BalloonStyle>
+				<color>FFA56A</color>
+				<text>&lt;img src="http://www.discovery.com/utilities/googleearth/logos/discoverynetworks.gif" width="100" height="47" border="0" alt="discovery communications inc" /&gt;&lt;br /&gt;&lt;font face="Verdana" size="3" color="#FFFFFF"&gt;$[description]&lt;/font&gt;&lt;font face="Verdana" size="3" color="#000000"&gt;Copyright &amp;copy; 2006 Discovery Communications Inc.&lt;/font&gt;</text>
+			</BalloonStyle>
+		</Style>
+		<Style id="discoveryPOIMapMouseout">
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>http://www.discovery.com/common/sgallery/googleearth/globe_white.png</href>
+					<w>32</w>
+					<h>32</h>
+				</Icon>
+			</IconStyle>
+			<BalloonStyle>
+				<color>FFA56A</color>
+				<text>&lt;img src="http://www.discovery.com/utilities/googleearth/logos/discoverynetworks.gif" width="100" height="47" border="0" alt="discovery communications inc" /&gt;&lt;br /&gt;&lt;font face="Verdana" size="3" color="#FFFFFF"&gt;$[description]&lt;/font&gt;&lt;font face="Verdana" size="3" color="#000000"&gt;Copyright &amp;copy; 2006 Discovery Communications Inc.&lt;/font&gt;</text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id="discoveryPOIMap">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#discoveryPOIMapMouseout</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#discoveryPOIMapMouseover</styleUrl>
+			</Pair>
+		</StyleMap>
+		
+		<!-- :::: FOLDER .......................................... [ nationalparks ] -->
+		<Folder>
+			<name>Discovery National Parks Tour</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Watch exclusive video of America's scenic wonders.]]></description>
+			
+			<!-- :::: LOCATION ....................... [ 1 ] -->
+			<Placemark>
+				<name>Glacier National Park</name>
+				<description><![CDATA[
+<a href="http://www.discovery.com/googleearth/?dcitc=w02-530-aj-0000&autoplay=true&blid=169202840&bctid=16938864"><img src="http://dsc.discovery.com/utilities/googleearth/nationalparks/gallery/glacierpark.jpg" width="320" height="240" border="0" alt="Glacier National Park" /></a><br />
+<font size="3" color="#000000">Picture: PhotoDisc/Getty Images |</font><br />
+&nbsp;<br />
+<font size="4"><strong>Inside Glacier National Park</strong></font><br />
+Explore through video the gem of <a href="http://www.discovery.com/googleearth/?dcitc=w02-530-aj-0000&autoplay=true&blid=169202840&bctid=16938864">Big Sky Country</a>.<br />
+&nbsp;<br />
+<strong>More Glacier videos:</strong><br />
+Watch how <a href="http://www.discovery.com/googleearth/?dcitc=w02-530-aj-0000&autoplay=true&blid=169202840&bctid=16938852">glaciers shaped</a> the park.<br />
+Learn Glacier's <a href="http://www.discovery.com/googleearth/?dcitc=w02-530-aj-0000&autoplay=true&blid=169202840&bctid=16938885">history and legends</a>.<br />
+Check out the <a href="http://www.discovery.com/googleearth/?dcitc=w02-530-aj-0000&autoplay=true&blid=169202840&bctid=16938867">"Going to the Sun" Highway</a>.<br />
+&nbsp;<br />
+				]]></description>
+				<Snippet>Glacier</Snippet>
+				<LookAt>
+					<longitude>-113.654822</longitude>
+					<latitude>48.756675</latitude>
+					<range>9444</range>
+					<tilt>0</tilt>
+					<heading>0</heading>
+				</LookAt>
+				<styleUrl>#discoveryPOIMap</styleUrl>
+				<Point>
+					<coordinates>-113.654822,48.756675,0</coordinates>
+				</Point>
+			</Placemark>
+			
+			<!-- :::: LOCATION ....................... [ 2 ] -->
+			<Placemark>
+				<name>Yellowstone National Park</name>
+				<description><![CDATA[
+<a href="http://www.discovery.com/googleearth/?dcitc=w02-530-aj-0000&autoplay=true&blid=169348060&bctid=17197352"><img src="http://dsc.discovery.com/utilities/googleearth/nationalparks/gallery/yellowstonepark.jpg" width="320" height="240" border="0" alt="Yellowstone National Park" /></a><br />
+<font size="3" color="#000000">Picture: PhotoDisc/Getty Images |</font><br />
+&nbsp;<br />
+<font size="4"><strong>The Wonder of Yellowstone</strong></font><br />
+Take a video tour of America's <a href="http://www.discovery.com/googleearth/?dcitc=w02-530-aj-0000&autoplay=true&blid=169348060&bctid=17197352">first national park</a>.<br />
+&nbsp;<br />
+<strong>More Yellowstone videos:</strong><br />
+Check out the park's <a href="http://www.discovery.com/googleearth/?dcitc=w02-530-aj-0000&autoplay=true&blid=169348060&bctid=17197351">hydrothermal wonders</a>.<br />
+<a href="http://www.discovery.com/googleearth/?dcitc=w02-530-aj-0000&autoplay=true&blid=169348060&bctid=17197353">Watch wildlife roaming</a> the park's forests and roads.<br />
+Find out why <a href="http://www.discovery.com/googleearth/?dcitc=w02-530-aj-0000&autoplay=true&blid=169348060&bctid=16927314">fires are so critical</a> for Yellowstone.<br />
+&nbsp;<br />
+				]]></description>
+				<Snippet>Yellowstone</Snippet>
+				<LookAt>
+					<longitude>-110.8334056</longitude>
+					<latitude>44.4596722</latitude>
+					<range>5191</range>
+					<tilt>0</tilt>
+					<heading>0</heading>
+				</LookAt>
+				<styleUrl>#discoveryPOIMap</styleUrl>
+				<Point>
+					<coordinates>-110.8334056,44.4596722,0</coordinates>
+				</Point>
+			</Placemark>
+			
+			<!-- :::: LOCATION ....................... [ 3 ] -->
+			<Placemark>
+				<name>Arches National Park</name>
+				<description><![CDATA[
+<a href="http://www.discovery.com/googleearth/?dcitc=w02-530-aj-0000&autoplay=true&blid=169207850&bctid=16938878"><img src="http://dsc.discovery.com/utilities/googleearth/nationalparks/gallery/archespark.jpg" width="320" height="240" border="0" alt="Arches National Park" /></a><br />
+<font size="3" color="#000000">Picture: PhotoDisc/Getty Images |</font><br />
+&nbsp;<br />
+<font size="4"><strong>Explore Amazing Arches</strong></font><br />
+See what created the park's <a href="http://www.discovery.com/googleearth/?dcitc=w02-530-aj-0000&autoplay=true&blid=169207850&bctid=16938878">stunning rock formations</a>.<br />
+&nbsp;<br />
+<strong>More Arches videos:</strong><br />
+Visit the park's most <a href="http://www.discovery.com/googleearth/?dcitc=w02-530-aj-0000&autoplay=true&blid=169207850&bctid=16938865">famous arches</a>.<br />
+Check out the <a href="http://www.discovery.com/googleearth/?dcitc=w02-530-aj-0000&autoplay=true&blid=169207850&bctid=16938853">unearthly terrain</a> of nearby Canyonlands.<br />
+Explore a geological mystery of <a href="http://www.discovery.com/googleearth/?dcitc=w02-530-aj-0000&autoplay=true&blid=169207850&bctid=16938866">Canyonlands</a>.<br />
+&nbsp;<br />
+				]]></description>
+				<Snippet>Arches</Snippet>
+				<LookAt>
+					<longitude>-109.5625</longitude>
+					<latitude>38.7083278</latitude>
+					<range>9109</range>
+					<tilt>0</tilt>
+					<heading>0</heading>
+				</LookAt>
+				<styleUrl>#discoveryPOIMap</styleUrl>
+				<Point>
+					<coordinates>-109.5625,38.7083278,0</coordinates>
+				</Point>
+			</Placemark>
+			
+			<!-- :::: LOCATION ....................... [ 4 ] -->
+			<Placemark>
+				<name>Mt. Rushmore National Park</name>
+				<description><![CDATA[
+<a href="http://www.discovery.com/googleearth/?dcitc=w02-530-aj-0000&autoplay=true&blid=169247930&bctid=17197358"><img src="http://dsc.discovery.com/utilities/googleearth/nationalparks/gallery/mountrushmore.jpg" width="320" height="240" border="0" alt="Mount Rushmore National Park" /></a><br />
+<font size="3" color="#000000">Picture: PhotoDisc/Getty Images |</font><br />
+&nbsp;<br />
+<font size="4"><strong>Up on Mt. Rushmore</strong></font><br />
+Get up close to the <a href="http://www.discovery.com/googleearth/?dcitc=w02-530-aj-0000&autoplay=true&blid=169247930&bctid=17197358">colossal stone carvings</a>.<br />
+&nbsp;<br />
+<strong>More Mt. Rushmore videos:</strong><br />
+See how <a href="http://www.discovery.com/googleearth/?dcitc=w02-530-aj-0000&autoplay=true&blid=169247930&bctid=17197362">flaws in the rock face</a> changed the design.<br />
+Watch how dynamite was used to <a href="http://www.discovery.com/googleearth/?dcitc=w02-530-aj-0000&autoplay=true&blid=169247930&bctid=17197359">carve the mountain</a>.<br />
+Get the story on what it was like to <a href="http://www.discovery.com/googleearth/?dcitc=w02-530-aj-0000&autoplay=true&blid=169247930&bctid=17197360">work on Rushmore</a>.<br />
+&nbsp;<br />
+				]]></description>
+				<Snippet>Mt. Rushmore</Snippet>
+				<LookAt>
+					<longitude>-103.45983056</longitude>
+					<latitude>43.87894722</latitude>
+					<range>2722</range>
+					<tilt>0</tilt>
+					<heading>0</heading>
+				</LookAt>
+				<styleUrl>#discoveryPOIMap</styleUrl>
+				<Point>
+					<coordinates>-103.45983056,43.87894722,0</coordinates>
+				</Point>
+			</Placemark>
+			
+			<!-- :::: LOCATION ....................... [ 5 ] -->
+			<Placemark>
+				<name>Everglades National Park</name>
+				<description><![CDATA[
+<a href="http://www.discovery.com/googleearth/?dcitc=w02-530-aj-0000&autoplay=true&blid=169207840&bctid=17041216"><img src="http://dsc.discovery.com/utilities/googleearth/nationalparks/gallery/evergladespark.jpg" width="320" height="240" border="0" alt="Everglades National Park" /></a><br />
+<font size="3" color="#000000">Picture: PhotoDisc/Getty Images |</font><br />
+&nbsp;<br />
+<font size="4"><strong>Inside the Everglades</strong></font><br />
+See what makes Florida's large national park <a href="http://www.discovery.com/googleearth/?dcitc=w02-530-aj-0000&autoplay=true&blid=169207840&bctid=17041216">so unique</a>.<br />
+&nbsp;<br />
+<strong>More Everglades videos:</strong><br />
+Watch how <a href="http://www.discovery.com/googleearth/?dcitc=w02-530-aj-0000&autoplay=true&blid=169207840&bctid=16938871">cypress trees</a> fuel the park's ecosystem.<br />
+Enter the world of the <a href="http://www.discovery.com/googleearth/?dcitc=w02-530-aj-0000&autoplay=true&blid=169207840&bctid=16927376">manatees</a>.<br />
+Go inside the park's huge <a href="http://www.discovery.com/googleearth/?dcitc=w02-530-aj-0000&autoplay=true&blid=169207840&bctid=16927364">mangrove forests</a>.<br />
+&nbsp;<br />
+				]]></description>
+				<Snippet>Everglades</Snippet>
+				<LookAt>
+					<longitude>-81.0324944</longitude>
+					<latitude>25.473822</latitude>
+					<range>31266</range>
+					<tilt>0</tilt>
+					<heading>0</heading>
+				</LookAt>
+				<styleUrl>#discoveryPOIMap</styleUrl>
+				<Point>
+					<coordinates>-81.0324944,25.473822,0</coordinates>
+				</Point>
+			</Placemark>
+			
+			<!-- :::: LOCATION ....................... [ 6 ] -->
+			<Placemark>
+				<name>Pt. Reyes National Seashore</name>
+				<description><![CDATA[
+<a href="http://www.discovery.com/googleearth/?dcitc=w02-530-aj-0000&autoplay=true&blid=170139490&bctid=16927304"><img src="http://dsc.discovery.com/utilities/googleearth/nationalparks/gallery/pointreyes.jpg" width="320" height="240" border="0" alt="Point Reyes National Seashore" /></a><br />
+<font size="3" color="#000000">Picture: PhotoDisc/Getty Images |</font><br />
+&nbsp;<br />
+<font size="4"><strong>Cruising Point Reyes Seashore</strong></font><br />
+Visit a park along the <a href="http://www.discovery.com/googleearth/?dcitc=w02-530-aj-0000&autoplay=true&blid=170139490&bctid=16927304">San Andreas Fault</a>.<br />
+&nbsp;<br />
+<strong>More Point Reyes videos:</strong><br />
+Go underneath the <a href="http://www.discovery.com/googleearth/?dcitc=w02-530-aj-0000&autoplay=true&blid=170139490&bctid=16927321">coastal waters</a>.<br />
+Watch <a href="http://www.discovery.com/googleearth/?dcitc=w02-530-aj-0000&autoplay=true&blid=170139490&bctid=16927357">sharks and whales</a> near the coast.<br />
+See the <a href="http://www.discovery.com/googleearth/?dcitc=w02-530-aj-0000&autoplay=true&blid=170139490&bctid=17041205">range of wildlife</a> along the seashore.<br />
+&nbsp;<br />
+				]]></description>
+				<Snippet>Point Reyes</Snippet>
+				<LookAt>
+					<longitude>-122.9917944</longitude>
+					<latitude>37.99874167</latitude>
+					<range>7950</range>
+					<tilt>0</tilt>
+					<heading>0</heading>
+				</LookAt>
+				<styleUrl>#discoveryPOIMap</styleUrl>
+				<Point>
+					<coordinates>-122.9917944,37.99874167,0</coordinates>
+				</Point>
+			</Placemark>
+			
+			<!-- :::: LOCATION ....................... [ 7 ] -->
+			<Placemark>
+				<name>Santa Monica Mountains</name>
+				<description><![CDATA[
+<a href="http://www.discovery.com/googleearth/?dcitc=w02-530-aj-0000&autoplay=true&blid=169197910&bctid=16938861"><img src="http://dsc.discovery.com/utilities/googleearth/nationalparks/gallery/santamonica.jpg" width="320" height="240" border="0" alt="Santa Monica Mountains" /></a><br />
+<font size="3" color="#000000">Picture: PhotoDisc/Getty Images |</font><br />
+&nbsp;<br />
+<font size="4"><strong>Santa Monica Mountains</strong></font><br />
+Get a good look at the <a href="http://www.discovery.com/googleearth/?dcitc=w02-530-aj-0000&autoplay=true&blid=169197910&bctid=16938861">largest urban park</a> in America.<br />
+&nbsp;<br />
+<strong>More Santa Monica videos:</strong><br />
+<a href="http://www.discovery.com/googleearth/?dcitc=w02-530-aj-0000&autoplay=true&blid=169197910&bctid=16938890">Watch the wildlife</a> that roams close to Los Angeles.<br />
+Find out about the area's <a href="http://www.discovery.com/googleearth/?dcitc=w02-530-aj-0000&autoplay=true&blid=169197910&bctid=16927368">Native-American history</a>.<br />
+Learn about the women who <a href="http://www.discovery.com/googleearth/?dcitc=w02-530-aj-0000&autoplay=true&blid=169197910&bctid=17041267">fought for the park</a>.<br />
+&nbsp;<br />
+				]]></description>
+				<Snippet>Santa Monica</Snippet>
+				<LookAt>
+					<longitude>-118.5764389</longitude>
+					<latitude>34.06768056</latitude>
+					<range>3428</range>
+					<tilt>63</tilt>
+					<heading>150</heading>
+				</LookAt>
+				<styleUrl>#discoveryPOIMap</styleUrl>
+				<Point>
+					<coordinates>-118.5764389,34.06768056,0</coordinates>
+				</Point>
+			</Placemark>
+			
+			<!-- :::: LOCATION ....................... [ 8 ] -->
+			<Placemark>
+				<name>Alaska National Parks</name>
+				<description><![CDATA[
+<a href="http://www.discovery.com/googleearth/?dcitc=w02-530-aj-0000&autoplay=true&blid=16938910&bctid=16927307"><img src="http://dsc.discovery.com/utilities/googleearth/nationalparks/gallery/denali.jpg" width="320" height="240" border="0" alt="Denali" /></a><br />
+<font size="3" color="#000000">Picture: PhotoDisc/Getty Images |</font><br />
+&nbsp;<br />
+<font size="4"><strong>Into Alaska</strong></font><br />
+See the range of Alaska's <a href="http://www.discovery.com/googleearth/?dcitc=w02-530-aj-0000&autoplay=true&blid=16938910&bctid=16927307">spectacular scenery</a>.<br />
+&nbsp;<br />
+<strong>More Alaska National Parks videos:</strong><br />
+<a href="http://www.discovery.com/googleearth/?dcitc=w02-530-aj-0000&autoplay=true&blid=16938910&bctid=16927318">Explore Denali</a> and the highest peak in America.<br />
+Watch the <a href="http://www.discovery.com/googleearth/?dcitc=w02-530-aj-0000&autoplay=true&blid=16938910&bctid=16927313">bears of Katmai</a> National Park.<br />
+Go above the <a href="http://www.discovery.com/googleearth/?dcitc=w02-530-aj-0000&autoplay=true&blid=16938910&bctid=17041248">Arctic Circle</a>.<br />
+&nbsp;<br />
+				]]></description>
+				<Snippet>Denali</Snippet>
+				<LookAt>
+					<longitude>-151.04334166</longitude>
+					<latitude>63.130722</latitude>
+					<range>28567</range>
+					<tilt>63</tilt>
+					<heading>165</heading>
+				</LookAt>
+				<styleUrl>#discoveryPOIMap</styleUrl>
+				<Point>
+					<coordinates>-151.04334166,63.130722,0</coordinates>
+				</Point>
+			</Placemark>
+			
+			<!-- :::: LOCATION ....................... [ 9 ] -->
+			<Placemark>
+				<name>Dinosaur National Monument</name>
+				<description><![CDATA[
+<a href="http://www.discovery.com/googleearth/?dcitc=w02-530-aj-0000&autoplay=true&blid=171973500&bctid=17041262"><img src="http://dsc.discovery.com/utilities/googleearth/nationalparks/gallery/dinosaurpark.jpg" width="320" height="240" border="0" alt="Dinosaur National Monument" /></a><br />
+<font size="3" color="#000000">Picture: PhotoDisc/Getty Images |</font><br />
+&nbsp;<br />
+<font size="4"><strong>Dinosaur National Monument</strong></font><br />
+Go where <a href="http://www.discovery.com/googleearth/?dcitc=w02-530-aj-0000&autoplay=true&blid=171973500&bctid=17041262">giant monsters</a> used to roam.<br />
+&nbsp;<br />
+<strong>More Dinosaur videos:</strong><br />
+See what <a href="http://www.discovery.com/googleearth/?dcitc=w02-530-aj-0000&autoplay=true&blid=171973500&bctid=16927330">geological layers</a> say about the past.<br />
+Watch the strange creatures of the <a href="http://www.discovery.com/googleearth/?dcitc=w02-530-aj-0000&autoplay=true&blid=171973500&bctid=17041234">Triassic Period</a>.<br />
+Return to the age of <a href="http://www.discovery.com/googleearth/?dcitc=w02-530-aj-0000&autoplay=true&blid=171973500&bctid=16927296">dinosaur giants</a>.<br />
+&nbsp;<br />
+				]]></description>
+				<Snippet>Dinosaur Park</Snippet>
+				<LookAt>
+					<longitude>-108.67355833</longitude>
+					<latitude>40.6918167</latitude>
+					<range>22976</range>
+					<tilt>0</tilt>
+					<heading>0</heading>
+				</LookAt>
+				<styleUrl>#discoveryPOIMap</styleUrl>
+				<Point>
+					<coordinates>-108.67355833,40.6918167,0</coordinates>
+				</Point>
+			</Placemark>
+			
+			<!-- :::: LOCATION ....................... [ 10 ] -->
+			<Placemark>
+				<name>Carlsbad Caverns</name>
+				<description><![CDATA[
+<a href="http://www.discovery.com/googleearth/?dcitc=w02-530-aj-0000&autoplay=true&blid=169247950&bctid=16938844"><img src="http://dsc.discovery.com/utilities/googleearth/nationalparks/gallery/carlsbadcaves.jpg" width="320" height="240" border="0" alt="Carlsbad Caverns" /></a><br />
+<font size="3" color="#000000">Picture: PhotoDisc/Getty Images |</font><br />
+&nbsp;<br />
+<font size="4"><strong>Into Carlsbad Caverns</strong></font><br />
+Enter a stunning <a href="http://www.discovery.com/googleearth/?dcitc=w02-530-aj-0000&autoplay=true&blid=169247950&bctid=16938844">underground world</a>.<br />
+&nbsp;<br />
+<strong>More Carlsbad videos:</strong><br />
+Watch the nightly swarm of <a href="http://www.discovery.com/googleearth/?dcitc=w02-530-aj-0000&autoplay=true&blid=169247950&bctid=16938886">Carlsbad's bats</a>.<br />
+See how <a href="http://www.discovery.com/googleearth/?dcitc=w02-530-aj-0000&autoplay=true&blid=169247950&bctid=17041293">sulfuric acid</a> helped form the caverns.<br />
+&nbsp;<br />
+				]]></description>
+				<Snippet>Carlsbad</Snippet>
+				<LookAt>
+					<longitude>-104.441056</longitude>
+					<latitude>32.176991666</latitude>
+					<range>4694</range>
+					<tilt>0</tilt>
+					<heading>0</heading>
+				</LookAt>
+				<styleUrl>#discoveryPOIMap</styleUrl>
+				<Point>
+					<coordinates>-104.441056,32.176991666,0</coordinates>
+				</Point>
+			</Placemark>
+			
+		</Folder>
+		<!-- :::: END FOLDER .......................................... [ nationalparks ] -->
+		
+	</Document>
+
+</kml>

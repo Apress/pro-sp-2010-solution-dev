@@ -1,0 +1,33 @@
+﻿<WorkflowInfo>
+  <Actions Sequential="then" Parallel="and">
+    <Action Name="Create SubSite" ClassName="SiteProvisionActivity.ProvisionActivity"
+            Assembly="SiteProvisionActivity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=d5c639ac57ef5dbf"
+            AppliesTo="all" Category="Site Provision Actions">
+      <RuleDesigner Sentence="Create site named %1 at the URL %2 described as %3. Use template %4 with locale %5. %6 use unique Permissions. %7 convert if the site exists.">
+        <FieldBind Field="SiteTitle" DesignerType="TextArea" Id="1"/>
+        <FieldBind Field="SiteUrl" DesignerType="TextArea" Id="2"/>
+        <FieldBind Field="SiteDescription" DesignerType="TextArea" Id="3"/>
+        <FieldBind Field="SiteTemplate" DesignerType="TextArea" Id="4"/>
+        <FieldBind Field="LocaleID" DesignerType="TextArea" Id="5"/>
+        <FieldBind Field="UseUniquePermissions" DesignerType="Dropdown" Text="choose"  Id="6">
+          <Option Name="Do" Value="True"/>
+          <Option Name="Do not" Value="False"/>
+        </FieldBind>
+        <FieldBind Field="ConvertIfThere" DesignerType="Dropdown" Text="choose"  Id="7">
+          <Option Name="Do" Value="True"/>
+          <Option Name="Do not" Value="False"/>
+        </FieldBind>
+      </RuleDesigner>
+      <Parameters>
+        <Parameter Name="__Context" Type="Microsoft.SharePoint.WorkflowActions.WorkflowContext, Microsoft.SharePoint.WorkflowActions" Direction="In"/>
+        <Parameter Name="SiteTitle" Type="System.String, mscorlib" Direction="In" />
+        <Parameter Name="SiteUrl" Type="System.String, mscorlib" Direction="In" />
+        <Parameter Name="SiteDescription" Type="System.String, mscorlib" Direction="In" />
+        <Parameter Name="SiteTemplate" Type="System.String, mscorlib" Direction="In" />
+        <Parameter Name="LocaleID" Type="System.UInt32, mscorlib" Direction="In" InitialValue="1033" />
+        <Parameter Name="UseUniquePermissions" Type="System.String, mscorlib" Direction="In" />
+        <Parameter Name="ConvertIfThere" Type="System.String, mscorlib" Direction="In" />
+      </Parameters>
+    </Action>
+  </Actions>
+</WorkflowInfo>

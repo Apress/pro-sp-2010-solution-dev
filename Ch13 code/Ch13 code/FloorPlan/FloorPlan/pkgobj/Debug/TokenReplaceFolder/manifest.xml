@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="9974c09e-2df9-4e56-b747-198cef793904" SharePointProductVersion="14.0">
+  <Assemblies>
+    <Assembly Location="FloorPlan.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="FloorPlan, Version=1.0.0.0, Culture=neutral, PublicKeyToken=2c1e91d1db271485" Namespace="FloorPlan.FloorPlanPart" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="CONTROLTEMPLATES\FloorPlan\FloorPlanPart\FloorPlanPartUserControl.ascx" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="FloorPlan_FloorPlanFeature\Feature.xml" />
+  </FeatureManifests>
+</Solution>

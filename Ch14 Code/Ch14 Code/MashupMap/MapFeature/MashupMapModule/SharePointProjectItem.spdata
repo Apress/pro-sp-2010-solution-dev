@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="MashupMapModule\" Type="ElementManifest" />
+    <ProjectItemFile Source="nationalparks.xml" Target="MashupMapModule\" Type="ElementFile" />
+    <ProjectOutputFile ProjectId="338b6a82-4792-4599-bf9c-fb34cae046b3" ProjectPath="..\MashupMap\MashupMap.csproj" Target="MashupMapModule\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

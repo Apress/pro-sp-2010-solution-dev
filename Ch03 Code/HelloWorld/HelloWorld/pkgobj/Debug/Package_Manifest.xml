@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="d849e48a-f272-47ca-b305-0e859fd0a123" SharePointProductVersion="14.0">
+  <Assemblies>
+    <Assembly Location="HelloWorld.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="HelloWorld_HelloWorldFeature\Feature.xml" />
+  </FeatureManifests>
+</Solution>

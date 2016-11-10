@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="CustomerDocuments"
+                OnQuickLaunch="TRUE"
+                TemplateType="101"
+                FeatureId="00bfea71-e717-4e80-aa17-d0c71b360101"
+                Url="Lists/CustomerDocuments"
+                Description="">
+  </ListInstance>
+  <ContentTypeBinding
+      ContentTypeId="0x010100AA8705BBBC554342BC1396AB7FB723B401"
+      ListUrl="Lists/CustomerDocuments"
+   />
+  <ContentTypeBinding
+      ContentTypeId="0x010100AA8705BBBC554342BC1396AB7FB723B402"
+      ListUrl="Lists/CustomerDocuments"
+   />
+  <ContentTypeBinding
+     ContentTypeId="0x010100AA8705BBBC554342BC1396AB7FB723B403"
+     ListUrl="Lists/CustomerDocuments"
+   />
+
+</Elements>

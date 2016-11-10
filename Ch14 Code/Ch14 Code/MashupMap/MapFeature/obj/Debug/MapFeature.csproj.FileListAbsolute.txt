@@ -1,0 +1,5 @@
+D:\Projects\MashupMap\MapFeature\bin\Debug\MapFeature.dll
+D:\Projects\MashupMap\MapFeature\bin\Debug\MapFeature.pdb
+D:\Projects\MashupMap\MapFeature\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\MashupMap\MapFeature\obj\Debug\MapFeature.dll
+D:\Projects\MashupMap\MapFeature\obj\Debug\MapFeature.pdb

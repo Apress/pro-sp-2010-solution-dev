@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+        <sectionGroup name="applicationSettings" type="System.Configuration.ApplicationSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="templateProject.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+    <applicationSettings>
+        <templateProject.Properties.Settings>
+            <setting name="templateProject_SPQueryService_QueryService" serializeAs="String">
+                <value>http://edhild3/_vti_bin/search.asmx</value>
+            </setting>
+        </templateProject.Properties.Settings>
+    </applicationSettings>
+</configuration>

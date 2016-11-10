@@ -1,0 +1,75 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>CRMSampleCube</Database>
+    <Server>localhost</Server>
+    <ConnectionString>DataSource=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>kzDobdt2QwK57lSfTkKKJg==4/26/2010 2:57:49 PM11/2/2009 2:42:54 PM</TimeStamp>
+        <ID>
+          <String>CRM Sample</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>DAqXjkwqQAUKMQysAVVdLQ==11/8/2009 6:53:44 PM11/8/2009 6:53:44 PM</TimeStamp>
+        <ID>
+          <String>CRM Sample</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>0tDfU6X0fiA+v7gJ9KY7nQ==11/2/2009 2:44:06 PM11/2/2009 2:44:06 PM</TimeStamp>
+        <ID>
+          <String>Order</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>E0q2kMGgADMRmcIISFcAqA==11/2/2009 2:45:22 PM11/2/2009 2:45:22 PM</TimeStamp>
+        <ID>
+          <String>Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>GIB5uq/ES5YxgRjbycTXow==11/2/2009 3:04:42 PM11/2/2009 3:04:42 PM</TimeStamp>
+        <ID>
+          <String>CustomerID</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>27rAc0r+evjXksevI/e2HQ==11/2/2009 3:06:08 PM11/2/2009 3:06:08 PMiQTxCG8jGb1U7AHpOD89cA==11/2/2009 2:44:06 PM11/2/2009 2:44:06 PM</TimeStamp>
+        <ID>
+          <String>CRM Sample</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>+FE4qDwstVX32C7DIYm6rA==11/2/2009 2:56:00 PM11/2/2009 2:56:00 PM</TimeStamp>
+      <ID>
+        <String>CRMSampleCube</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2010-04-26T18:59:39Z</LastDeployed>
+</DeploymentSnapshot>

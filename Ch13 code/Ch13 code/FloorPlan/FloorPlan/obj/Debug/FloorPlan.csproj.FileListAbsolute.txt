@@ -1,0 +1,5 @@
+c:\Projects\FloorPlan\FloorPlan\bin\Debug\FloorPlan.dll
+c:\Projects\FloorPlan\FloorPlan\bin\Debug\FloorPlan.pdb
+c:\Projects\FloorPlan\FloorPlan\obj\Debug\ResolveAssemblyReference.cache
+c:\Projects\FloorPlan\FloorPlan\obj\Debug\FloorPlan.dll
+c:\Projects\FloorPlan\FloorPlan\obj\Debug\FloorPlan.pdb

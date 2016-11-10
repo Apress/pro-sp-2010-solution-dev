@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Field
+    ID="{673EC61F-5CC3-41ae-A974-DE547EDB5FC7}"
+    SourceID="http://schemas.microsoft.com/sharepoint/v3/fields"
+    Name="Latitude"
+    StaticName="Latitude"
+    Type="Number"
+    Group="Geocode Group"
+    DisplayName="Latitude">
+  </Field>
+  <Field
+      ID="{318A3DE7-4783-4a8b-A9D2-FE1A59E6CCBA}"
+      SourceID="http://schemas.microsoft.com/sharepoint/v3/fields"
+      Name="Longitude"
+      StaticName="Longitude"
+      Type="Number"
+      Group="Geocode Group"
+      DisplayName="Longitude">
+  </Field>
+  <Field
+      ID="{E9DBD6FD-A198-4eca-85A6-65825DE56066}"
+      SourceID="http://schemas.microsoft.com/sharepoint/v3/fields"
+      Name="GeocodeStatus"
+      StaticName="GeocodeStatus"
+      Type="Choice"
+      FillInChoice="FALSE"
+      Group="Geocode Group"
+      DisplayName="GeocodeStatus">
+    <CHOICES>
+      <CHOICE>Not Geoencoded</CHOICE>
+      <CHOICE>Geocoded</CHOICE>
+    </CHOICES>
+    <Default>Not Geoencoded</Default>
+  </Field>
+
+  <!-- Parent ContentType: Contact (0x0106) -->
+  <ContentType ID="0x0106008d5ceaa8cb464dca9ba7a3e4ae9362a2"
+               Name="GeocodeContact"
+               Group="Custom Content Types"
+               Description="My Content Type"
+               Inherits="TRUE"
+               Version="0">
+    <FieldRefs>
+      <FieldRef ID="{673EC61F-5CC3-41ae-A974-DE547EDB5FC7}" Name="Latitude" />
+      <FieldRef ID="{318A3DE7-4783-4a8b-A9D2-FE1A59E6CCBA}" Name="Longitude" />
+      <FieldRef ID="{E9DBD6FD-A198-4eca-85A6-65825DE56066}" Name="GeocodeStatus" />
+    </FieldRefs>
+  </ContentType>
+
+</Elements>

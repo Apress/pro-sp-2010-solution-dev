@@ -1,0 +1,5 @@
+D:\Projects\MashupMap\MashupMap.Web\bin\MashupMap.Web.dll
+D:\Projects\MashupMap\MashupMap.Web\bin\MashupMap.Web.pdb
+D:\Projects\MashupMap\MashupMap.Web\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\MashupMap\MashupMap.Web\obj\Debug\MashupMap.Web.dll
+D:\Projects\MashupMap\MashupMap.Web\obj\Debug\MashupMap.Web.pdb

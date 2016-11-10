@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Description="Adds a custom action to contact list items to merge a contact item into a Word document" Id="4a7e3934-bddf-4bef-9938-83805f84ae40" Scope="Web" Title="CustomerDocumentsFeature">
+  <ElementManifests>
+    <ElementManifest Location="CustomerContacts\Elements.xml" />
+    <ElementManifest Location="CustomerDocuments\Elements.xml" />
+    <ElementManifest Location="CustomerDocumentsElements\Elements.xml" />
+  </ElementManifests>
+</Feature>

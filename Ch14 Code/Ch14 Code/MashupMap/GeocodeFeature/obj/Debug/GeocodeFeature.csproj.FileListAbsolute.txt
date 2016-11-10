@@ -1,0 +1,6 @@
+D:\Projects\MashupMap\GeocodeFeature\bin\Debug\GeocodeFeature.dll
+D:\Projects\MashupMap\GeocodeFeature\bin\Debug\GeocodeFeature.pdb
+D:\Projects\MashupMap\GeocodeFeature\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\MashupMap\GeocodeFeature\obj\Debug\GeocodeFeature.dll
+D:\Projects\MashupMap\GeocodeFeature\obj\Debug\GeocodeFeature.pdb
+D:\Projects\MashupMap\GeocodeFeature\bin\Debug\GeocodeFeature.dll.config

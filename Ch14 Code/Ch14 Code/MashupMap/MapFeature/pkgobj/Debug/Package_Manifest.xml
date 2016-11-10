@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="237be74a-f239-4a27-ba50-c8de0a5d0079" SharePointProductVersion="14.0">
+  <Assemblies>
+    <Assembly Location="MapFeature.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="MapFeature_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>

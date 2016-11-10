@@ -1,0 +1,119 @@
+﻿<script language="javascript" type="text/javascript">
+    var curRange; // currently selected range
+    var ewa; // reference to the Excel Web Access control (EWA)
+    var workbook; // path to the currently loaded workbook
+    var siteUrl = "http://intranet.contoso.com/"; // complete site url
+    var siteRelativeUrl = "/" // subsite portion of the url will be '/' for root sites
+    var nid; // stores id of notifications being displayed
+    
+    window.attachEvent("onload", PageLoad);
+
+    function PageLoad() {
+        // attach event to fire once EWA is loaded
+        Ewa.EwaControl.add_applicationReady(GetEwa);
+    }
+    function GetEwa() {
+        // get a reference to the EWA
+        ewa = Ewa.EwaControl.getInstances().getItem(0);
+        // store the current workbook path without the site url
+        workbook = ewa.getActiveWorkbook().getWorkbookPath().replace(siteUrl, "");
+        // set initial range
+        UpdateRange(ewa.getActiveWorkbook().getActiveSelection());
+        // add event handler for selection change
+        ewa.add_activeSelectionChanged(ActiveSelectionChanged);
+    }
+    function ActiveSelectionChanged(args) {
+        // update current range based on selection
+        UpdateRange(args.getRange());
+    }
+    function UpdateRange(range) {
+        // store current range and update UI
+        curRange = (range.getAddressA1().replace(":", "|"));
+        document.getElementById("range").innerHTML = curRange;
+    }
+    function SaveComment() {
+        // disable button
+        document.getElementById("submitComment").disabled = true;
+        
+        // add notification
+        nid = SP.UI.Notify.addNotification("Saving Comment...", true);
+        
+        // get HTML for the range using Excel REST
+        var rangeLink = siteUrl + "_vti_bin/ExcelRest.aspx/" + workbook + "/model/Ranges('" + curRange + "')";
+        var request = new XMLHttpRequest();
+        request.open("GET", rangeLink, false);
+        request.send();
+        var rangeHTML = request.responseText;
+
+        // save new list item using SharePoint Client OM
+        var context = new SP.ClientContext(siteRelativeUrl);
+        var list = context.get_web().get_lists().getByTitle("EventBudgetComments");
+        var createInfo = new SP.ListItemCreationInformation();
+        var listItem = list.addItem(createInfo);
+        listItem.set_item("Title", "Range Comment");
+        listItem.set_item("Comments", "<div>" + document.getElementById("comments").value + "</div>");
+        listItem.set_item("CommentView", rangeHTML);
+        listItem.set_item("CurrentView", rangeLink);
+        listItem.update();
+        
+        // make asynchronous call to perform save passing callback functions
+        context.executeQueryAsync(Function.createDelegate(this, this.SaveCommentSucceeded), Function.createDelegate(this, this.SaveCommentFailed));
+    }
+    function SaveCommentSucceeded() {
+        // enable button
+        document.getElementById("submitComment").disabled = false;
+        // clear save notification
+        SP.UI.Notify.removeNotification(nid);
+        // add success notification
+        SP.UI.Notify.addNotification("Save completed successfullly");
+    }
+    function SaveCommentFailed() {
+        // enable button
+        document.getElementById("submitComment").disabled = false;
+        // clear save notification
+        SP.UI.Notify.removeNotification(nid);
+        // add failure notification
+        SP.UI.Notify.addNotification("Your save request failed!");
+    }
+</script>
+<style type="text/css">
+    .commentWrapper
+    {
+        width:290px;
+    }
+    .commentWrapper .title 
+    {
+        background:#333333;        
+        text-align:center;
+        color:#FFFFFF;
+        font-size:130%;
+        font-weight:bold;
+    }
+    .commentWrapper textarea
+    {
+        width:270px;
+        height:150px;
+    }
+    .commentWrapper div
+    {
+        padding:5px;
+    }
+    .commentWrapper .label
+    {
+        font-weight:bold;
+    }
+</style>
+<div class="commentWrapper">
+    <div class="title">Range Comments</div>
+    <div>Select a range in the spreadsheet, add your comments and click 'Save Comment'.</div>
+    <div><span class="label">Current Range:</span> <span id="range"></span></div>
+    <div class="label">Comments:</div>
+    <div><textarea id="comments"></textarea></div>
+    <div><input id="submitComment" type="button" value="Save Comment" onclick="SaveComment();" /></div>
+</div><html xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"><head>
+<!--[if gte mso 9]><xml>
+<mso:CustomDocumentProperties>
+<mso:TaxCatchAll msdt:dt="string"></mso:TaxCatchAll>
+</mso:CustomDocumentProperties>
+</xml><![endif]-->
+</head>

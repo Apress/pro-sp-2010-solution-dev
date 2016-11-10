@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="f0eb7933-b643-43d5-a618-f2d65ec9afc8" SharePointProductVersion="14.0">
+  <Assemblies>
+    <Assembly Location="PublishToPDF.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="PublishToPDF_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>

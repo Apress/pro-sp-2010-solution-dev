@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="8794c692-b5af-48da-8389-a77eeeb5ca50" SharePointProductVersion="14.0">
+  <Assemblies>
+    <Assembly Location="GeocodeFeature.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="GeocodeFeature_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>

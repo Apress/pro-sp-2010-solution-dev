@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="Floor Plan Web Part" Description="Floor plan interactive web part" Id="26fac7de-4459-4811-a059-475ebe9f45bf" Scope="Site">
+  <ElementManifests>
+    <ElementManifest Location="FloorPlanPart\Elements.xml" />
+    <ElementFile Location="FloorPlanPart\FloorPlanPart.webpart" />
+  </ElementManifests>
+</Feature>

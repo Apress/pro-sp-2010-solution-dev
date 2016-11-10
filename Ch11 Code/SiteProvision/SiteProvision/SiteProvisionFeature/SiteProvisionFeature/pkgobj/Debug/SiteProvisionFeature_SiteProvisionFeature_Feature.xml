@@ -1,0 +1,2 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="SiteProvisionFeature" Id="e91b4fab-14ee-400e-9c97-8f8f14bf1458" ReceiverAssembly="SiteProvisionFeature, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7793d5b5484f0581" ReceiverClass="SiteProvisionFeature.Features.SiteProvisionFeature.SiteProvisionFeatureEventReceiver" Scope="WebApplication"></Feature>

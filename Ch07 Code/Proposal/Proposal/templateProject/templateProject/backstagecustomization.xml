@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="Ribbon_Load">
+  <backstage>
+    <tab idMso="TabInfo">
+      <firstColumn>
+        <group id="ProposalInfoGroup"
+					   label="Proposal Information"
+					   helperText="Use the link provided to get details on resume tasks for this proposal. Note that document must be saved to SharePoint initially for this link to work.">
+          <topItems>
+            <hyperlink id="taskLink" label="View tasks" getTarget="GetHyperLink"/>
+          </topItems>
+        </group>
+      </firstColumn>
+    </tab>
+  </backstage>
+</customUI>
+

@@ -1,0 +1,5 @@
+D:\Projects\Proposal\ProposalEvents\bin\Debug\ProposalEvents.dll
+D:\Projects\Proposal\ProposalEvents\bin\Debug\ProposalEvents.pdb
+D:\Projects\Proposal\ProposalEvents\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\Proposal\ProposalEvents\obj\Debug\ProposalEvents.dll
+D:\Projects\Proposal\ProposalEvents\obj\Debug\ProposalEvents.pdb

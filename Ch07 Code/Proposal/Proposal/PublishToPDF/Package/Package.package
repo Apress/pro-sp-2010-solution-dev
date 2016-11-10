@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" Id="f0eb7933-b643-43d5-a618-f2d65ec9afc8" solutionId="f0eb7933-b643-43d5-a618-f2d65ec9afc8" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" name="PublishToPDF">
+    <features>
+        <featureReference itemId="ee1877a8-72b1-4441-b510-a4dcecd3d81d" />
+    </features>
+</package>

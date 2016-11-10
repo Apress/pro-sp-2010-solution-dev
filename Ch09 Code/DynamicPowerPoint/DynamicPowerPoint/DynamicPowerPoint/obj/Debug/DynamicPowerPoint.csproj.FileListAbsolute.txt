@@ -1,0 +1,5 @@
+D:\Projects\DynamicPowerPoint\DynamicPowerPoint\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\DynamicPowerPoint\DynamicPowerPoint\bin\Debug\DynamicPowerPoint.dll
+D:\Projects\DynamicPowerPoint\DynamicPowerPoint\bin\Debug\DynamicPowerPoint.pdb
+D:\Projects\DynamicPowerPoint\DynamicPowerPoint\obj\Debug\DynamicPowerPoint.dll
+D:\Projects\DynamicPowerPoint\DynamicPowerPoint\obj\Debug\DynamicPowerPoint.pdb
